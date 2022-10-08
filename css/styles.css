@@ -2,6 +2,7 @@
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
+    --hover-button-color: #188CE8;
     --primary-white-color: #FFFFFF;
     --background-color: #F5F5F5;
     --black-for-logo: #000000;
@@ -41,6 +42,7 @@ body {
 }
 
 /* site-nav */
+
 .site-nav .link {
     color: var(--title-text-color);
     font-weight: 500;
@@ -48,9 +50,8 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.site-nav .accent {
-    color: var(--accent-color);
-}
+
+
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--accent-color);
@@ -67,7 +68,9 @@ body {
 .contact-list .link:focus {
     color: var(--accent-color);
 }
-
+.site-nav .current {
+    color: var(--accent-color);
+}
 
 
 /* footer */
@@ -97,12 +100,24 @@ footer{
 .address-list .address {
 color: var(--primary-white-color);
 }
+
 .address-list .mail {
 color: var(--mail-color) ;
 }
 .address-list .tel {
     color: var(--tel-color);
 }
+.address:hover,
+.address:focus,
+.mail:hover,
+.mail:focus,
+.tel:hover,
+.tel:focus {
+
+    color: var(--accent-color);
+}
+
+
 
 
  /* main page */
@@ -133,9 +148,24 @@ color: var(--mail-color) ;
     letter-spacing: 0.06em;
     cursor: pointer;
 }
+.button:hover,
+.button:focus {
+    background-color: var(--hover-button-color);
+}
 
 /* advances */
-
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
 .advances-list h3 {
     color: var(--title-text-color);
     font-weight: 700;
