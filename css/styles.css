@@ -113,12 +113,8 @@ color: var(--mail-color) ;
 .mail:focus,
 .tel:hover,
 .tel:focus {
-
-    color: var(--accent-color);
+color: var(--accent-color);
 }
-
-
-
 
  /* main page */
 
