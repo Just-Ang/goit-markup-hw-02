@@ -18,10 +18,15 @@ body {
     color: var(--primary-text-color);
     font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
     font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 
 }
 .list {
     list-style: none; 
+    margin: 0;
+    padding: 0;
 }
 .link {
     text-decoration: none;
@@ -34,11 +39,10 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    letter-spacing: 0.03em;
+    
 }
 .accent {
     color: var(--accent-color);
-
 }
 
 /* site-nav */
@@ -46,7 +50,6 @@ body {
 .site-nav .link {
     color: var(--title-text-color);
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
@@ -60,7 +63,6 @@ body {
 .contact-list .link {
     color: var(--primary-text-color);
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
@@ -74,7 +76,7 @@ body {
 
 
 /* footer */
-footer{
+.footer{
     background-color: var(--background-footer-color);
  }
  .logo-second {
@@ -83,20 +85,13 @@ footer{
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    letter-spacing: 0.03em;
+    
 }
 .accent {
     color: var(--accent-color);
 
 }
 
-.address-list {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-}
 .address-list .address {
 color: var(--primary-white-color);
 }
@@ -124,7 +119,7 @@ color: var(--accent-color);
 .hero {
     background-color: var(--background-footer-color);
 }
-.hero h1 {
+.hero-name {
     color: var(--primary-white-color);
     font-weight: 900;
     font-size: 44px;
@@ -162,46 +157,39 @@ color: var(--accent-color);
     clip-path: inset(50%);
     margin: -1px;
 }
-.advances-list h3 {
+.caption {
     color: var(--title-text-color);
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
+
 
 }
-.advances-list p {
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-}
+
 
 /* our work */
 
-.work h2, 
-.team h2 {
+.work-name, 
+.team-name {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
 }
  /* team */
 
- .team h3 {
+ .employee {
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
+    
  }
- .team p {
+ .post {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
  }
  
 
@@ -214,7 +202,6 @@ letter-spacing: 0.03em;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    letter-spacing: 0.03em;
     border: none;
     cursor: pointer;
  }
@@ -234,7 +221,7 @@ letter-spacing: 0.03em;
  }
 
  .form {
+color: var(--primary-text-color);
 font-size: 16px;
 line-height: 1.88;
-letter-spacing: 0.03em;
  }
