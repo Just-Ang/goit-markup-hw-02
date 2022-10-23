@@ -91,7 +91,9 @@ body {
     color: var(--accent-color);
 
 }
-
+.address-list {
+font-style: normal;
+}
 .address-list .address {
 color: var(--primary-white-color);
 }
@@ -119,7 +121,7 @@ color: var(--accent-color);
 .hero {
     background-color: var(--background-footer-color);
 }
-.hero-name {
+.hero-title {
     color: var(--primary-white-color);
     font-weight: 900;
     font-size: 44px;
@@ -168,8 +170,8 @@ color: var(--accent-color);
 
 /* our work */
 
-.work-name, 
-.team-name {
+.work-title, 
+.team-title {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
